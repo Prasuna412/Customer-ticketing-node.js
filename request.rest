@@ -1,0 +1,33 @@
+GET http://localhost:3000/posts
+Authorization: BearereyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiUmVudSIsImlhdCI6MTcyMjMxMzY0M30.iLxSWU5WaO9cnTCSrXqpKZ-8IyIf21IVMsBSzDNzEHE
+
+###
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+  "name": "Prasu",
+  "password": "password"
+}
+
+
+
+###
+POST http://localhost:3000/users/login
+Content-Type: application/json
+
+{
+  "name": "Prasu",
+  "password": "password"
+}
+
+
+
+###
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+  "username" : "Renu"
+}
+
