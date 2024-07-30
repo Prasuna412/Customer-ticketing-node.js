@@ -7,3 +7,8 @@ If you want to learn how the project is developed. You can visit https://www.you
 ### API Features
 
 The application can create, read, update and delete data, for example: products, in a database. 
+
+Steps to Follow : 
+install nodejs into your project
+
+open command prompt in the project folder and enter npm install 
